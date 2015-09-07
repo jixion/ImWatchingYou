@@ -4,4 +4,4 @@ sleep 5
 echo "Motion Detection started"
 sleep 5
 echo "Streaming to marvel..."
-ssh -CNR 8081:localhost:8081 marvel
+ssh -CNfR 8081:localhost:8081 marvel
